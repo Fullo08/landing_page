@@ -56,12 +56,15 @@ ul {
     margin: 0 auto;
     padding: 100px 0;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
 }
 
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 700;
+    margin: 0;
 }
 
 .hero p {
@@ -75,7 +78,113 @@ ul {
     padding: 5px 10px;
     border-radius: 8px;
     border: none;
-    width: 15%;
+    width: 8rem;
     color: #F9FAF8;
     font-size: 20px;
+}
+
+.hero img {
+    width: 40rem;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.info_cards {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.info_cards div {
+    width: min-content;
+}
+
+.info_cards img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.info_cards p {
+    color: #1F2937;
+}
+
+.qoute {
+    background-color: #E5E7EB;
+    padding: 10rem 30rem;
+}
+
+.qoute_text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin: 6rem auto;
+    width: 70%;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+
+.cta h3 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #F9FAF8;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.cta p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta button {
+    background-color: #3882F6;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: solid 2px #F9FAF8;
+    width: 8rem;
+    color: #F9FAF8;
+    font-size: 18px;
+    align-self: center;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
 }
